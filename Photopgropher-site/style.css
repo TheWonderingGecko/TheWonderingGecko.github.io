@@ -42,8 +42,8 @@ h1,h2,a{
 }
 
 .head-wrapper{
-    background-image: url(/Photopgropher-site/Images/jahmir.jpeg);
-    filter: grayscale(40%);
+   
+    filter: grayscale(20%);
     height: 100vh;
     background-size: cover;
     background-position-y: center;
@@ -135,13 +135,15 @@ h1,h2,a{
     background-color: black;
 }
 
-.about-head img{
+.about-head img,.head-wrapper img{
     width: 100%;
     height: 100%;
-    opacity: .5;
     border: none;
 }
 
+.about-head img{
+    opacity: .5;
+}
 .about-head h1{
     position: absolute;
     top:40vh;

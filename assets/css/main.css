@@ -3824,6 +3824,10 @@ input, select, textarea {
 			text-align: center;
 		}
 
+		#wrapper{
+			margin-bottom: 5vh;
+		}
+
 		#main > .post {
 			padding: 8rem 8rem 6rem 8rem ;
 		}

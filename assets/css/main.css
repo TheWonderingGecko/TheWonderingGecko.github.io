@@ -29,6 +29,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+	* {
+		scroll-behavior: smooth;
+	  }
+
 body {
 	line-height: 1;
 }
@@ -3800,6 +3804,31 @@ input, select, textarea {
 		}
 
 /* Main */
+	.projects{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.projects img{
+		padding: 0%;
+		margin: 0%;
+		
+	}
+
+	.projects a{
+		width: 50vw;
+	}
+
+	
+
+	.projects label{
+		position: absolute;
+		color:#eeeeee;
+		font-size: xx-large;
+		z-index: 5000;
+	}
 
 	#main {
 		background-color: #ffffff;

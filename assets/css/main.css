@@ -3826,7 +3826,7 @@ input, select, textarea {
 	.projects label{
 		position: absolute;
 		color:#eeeeee;
-		font-size: xx-large;
+		font-size: 5vw;
 		z-index: 5000;
 	}
 

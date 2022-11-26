@@ -517,7 +517,7 @@ main{
 }
 
 .portrait::after{
-content: "Portrait";
+content: "*Sub Category";
 color: white;
 margin-left: 2vh;
 font-size: larger;
@@ -525,7 +525,7 @@ font-weight: 100;
 }
 
 .group::after{
-    content: "Group";
+    content: "*Sub Category";
     color: white;
     margin-left: 2vh;
     font-size: larger;
@@ -533,7 +533,7 @@ font-weight: 100;
     }
 
 .pet::after{
-    content: "Pet";
+    content: "*Sub Category";
     color: white;
     margin-left: 2vh;
     font-size: larger;

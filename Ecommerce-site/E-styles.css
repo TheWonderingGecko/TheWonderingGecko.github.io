@@ -1,0 +1,89 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+:root{
+    --standard-color-1: #1041E8;
+    --standard-color-2: #117FF2;
+    --standard-color-3: #1AABDB;
+    --standard-color-4: #11F2EF;
+    --standard-color-5: #10E8A8;
+}
+
+body,h1{
+    margin:0;
+    padding:0;
+    font-family: 'Patrick Hand', cursive;
+
+}
+
+.nav-bar{
+    background: linear-gradient(var(--standard-color-1),var(--standard-color-3));
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    position: fixed;
+}
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1vh;
+    
+    
+}
+
+.title-section{
+    display: flex;
+    
+}
+
+.logo{
+    width: 80px;
+    height: auto;
+    margin-left: 2vw;
+    border-radius: 5000000px;
+    
+}
+
+.search{
+   
+   margin-right: 2vw;
+   height: 5vh;
+   width: 20vw;
+   
+}
+
+h1{
+   
+   margin-left: 2vw;
+   color: white;
+   font-size: 64px;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 2vw;
+    padding-top: 2vh;
+    margin: 0;
+    font-size: 30px;
+}
+
+.categories a{
+    text-decoration: none;
+    color: white;
+}
+
+.categories li{
+    list-style: none;
+}
+
+.categories a:hover{
+    transform: translateY(5px);
+    color: black;
+    -webkit-transition: transform 300ms;
+    text-decoration:underline
+}

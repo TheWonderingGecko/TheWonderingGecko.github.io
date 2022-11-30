@@ -37,22 +37,38 @@ body,h1{
 
 .title-section{
     display: flex;
+    flex-direction: row-reverse;
+    margin-left: 2vw;
+    background-color: gray;
+    border-radius: 50%;
     
 }
 
+.title{
+    font-size: 4em;
+    align-self: flex-end;
+    height: fit-content;
+}
+
 .logo{
-    width: 80px;
+    left:0;
+    top:20vh;
+    width: 8vw;
+    left: 1vw;
     height: auto;
-    margin-left: 2vw;
-    border-radius: 5000000px;
+    border-radius: 20%;
+    zoom: 50%;
+    
     
 }
 
 .search{
-   
+   align-self: flex-end;
+   text-align: left;
    margin-right: 2vw;
-   height: 5vh;
+   height: 4em;
    width: 20vw;
+   border: none;
    
 }
 
@@ -82,8 +98,7 @@ h1{
 }
 
 .categories a:hover{
-    transform: translateY(5px);
-    color: black;
-    -webkit-transition: transform 300ms;
-    text-decoration:underline
+    
+    color: var(--standard-color-5);
+   
 }

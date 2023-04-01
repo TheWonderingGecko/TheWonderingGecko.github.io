@@ -3026,12 +3026,35 @@ header {
   font-size: x-large;
 }
 
-.difficulty label {
-  font-size: large;
+.difficulty-2 li {
+  border: none;
 }
 
 .difficulty-2 {
-  border-top: 1px solid black;
+  width: 100%;
+  border: none;
+}
+
+.difficulty-2 ul {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.difficulty-2 li {
+  border: none;
+}
+
+.dif-image {
+  height: 40px;
+
+  padding: 2px;
 }
 
 .posts p {
@@ -3050,7 +3073,6 @@ header {
 }
 
 .post img {
-  border: 2px solid black;
 }
 
 .post h3 {

@@ -7,6 +7,26 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.extra-text {
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+.link {
+  color: blue;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
 html,
 body,
 div,
